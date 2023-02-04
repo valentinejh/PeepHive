@@ -1,0 +1,60 @@
+body {
+  background: linear-gradient(to bottom right, #2b5876, #4e4376);
+  background-size: 400% 400%;
+  animation: gradient 10s ease-out infinite;
+  font-family: "Blimey", monospace;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-blend-mode: screen;
+  }
+  
+  @keyframes gradient {
+  0% {
+  background-position: 20% 20%;
+  }
+  50% {
+  background-position: 100% 80%;
+  }
+  100% {
+  background-position: 20% 20%;
+  }
+  }
+  
+  header,
+  button,
+  .text {
+  font-family: "Blimey", monospace;
+  position: relative;
+  z-index: 1;
+  }
+  
+  h1 {
+  font-size: 3em;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+  }
+  
+  .buttons {
+  display: flex;
+  justify-content: center;
+  }
+  
+  button {
+  background-color: #fff;
+  color: #2b5876;
+  border: 2px solid #2b5876;
+  border-radius: 20px;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  margin: 0 10px;
+  }
+  
+  button:hover {
+  background-color: #8397a5;
+  color: #fff;
+  }
